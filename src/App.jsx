@@ -26,7 +26,7 @@ export default function App() {
   // We pass the getMovie function as a prop called moviesearch
   return (
     <div className="App">
-      <Form moviesearch={getMovie} />
+      <Form movieSearch={getMovie} />
       <MovieDisplay movie={movie}/> 
     </div>
   );
